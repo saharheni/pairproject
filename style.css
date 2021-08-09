@@ -1,0 +1,63 @@
+body {
+	background-repeat: no-repeat;
+	background-size: 1500px 720px;
+}
+h1{
+	color: yellow;
+	display: inline-block;
+	/*margin-left: 500px;
+	margin-top: -35px;*/
+	font-size: 80px;
+	font-family: cursive;
+	position: fixed;
+	top: 540px;
+	left: 520px;
+
+}
+#btn{
+	background-color: red;
+	padding: 20px 100px;
+	margin-top: 10px;
+	margin-left: 120px;
+	cursor: pointer;
+	border-radius: 30%;
+	font-size: 40px;
+	font-style: oblique;
+	font-family: cursive;
+}
+.pizzas{
+  margin-left: 50px;
+  margin-top: 40px;
+}
+#turk{
+	background: url(./images/turkish.png);
+	height: 227px;
+	width: 230px;
+	border-radius: 100%;
+}
+#neptune{
+	background: url(./images/neptune.png);
+	height: 227px;
+	width: 230px;
+	border-radius: 100%;
+}
+#margarit{
+	background: url(./images/margarit.png);
+	height: 227px;
+	width: 230px;
+	border-radius: 100%;
+}
+#veget{
+	background: url(./images/vegetarian.png);
+	height: 227px;
+	width: 230px;
+	border-radius: 100%;
+}
+
+.ul{
+	margin-top: 240px;
+	font-size: 30px;
+	margin-left: 3px;
+	color: white;
+	font-family: cursive;
+}
