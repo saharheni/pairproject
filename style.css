@@ -31,33 +31,40 @@ h1{
 }
 #turk{
 	background: url(./images/turkish.png);
-	height: 227px;
-	width: 230px;
+	height: 200px;
+	width: 200px;
 	border-radius: 100%;
 }
 #neptune{
 	background: url(./images/neptune.png);
-	height: 227px;
-	width: 230px;
+	height: 200px;
+	width: 200px;
 	border-radius: 100%;
 }
 #margarit{
 	background: url(./images/margarit.png);
-	height: 227px;
-	width: 230px;
+	height: 200px;
+	width: 200px;
 	border-radius: 100%;
 }
 #veget{
 	background: url(./images/vegetarian.png);
-	height: 227px;
-	width: 230px;
+	height: 200px;
+	width: 200px;
 	border-radius: 100%;
 }
-
-.ul{
-	margin-top: 240px;
-	font-size: 30px;
-	margin-left: 3px;
-	color: white;
+#custompizza{
+	background:url(./images/gg.jpg);
+	height : 200px;
+	width: 200px;
+	border-radius:  100%;
+}
+.checking{
+	margin-left: 250px;
+	margin-top: -100px;
+	font-size: 20px;
+	font-style: oblique;
 	font-family: cursive;
+	color: darkorange;
+
 }
