@@ -1,10 +1,14 @@
 
+$(".btnclass").click(function(){
+  $(".pizzas").toggle();
+});
+
 $("#turk").click(function(){
   $("#neptune").hide();
   $("#margarit").hide();
   $("#veget").hide();
   document.querySelector("#turk").innerHTML = 
-  "<ul class='ul'><li>olives</li><li>pepper</li><li>Zaater</li><li>chilli</li></ul>";
+  "<ul class='ul'><li>TomatoSauce</li><li>Cheeze</li><li>GroundBeef</li><li>pepper</li></ul>";
 });
 
 $("#neptune").click(function(){
@@ -12,7 +16,7 @@ $("#neptune").click(function(){
   $("#margarit").hide();
   $("#veget").hide();
   document.querySelector("#neptune").innerHTML = 
-  "<ul class='ul'><li>fries</li><li>olives</li><li>pepperoni</li><li>seafood</li></ul>";
+  "<ul class='ul'><li>TomatoSauce</li><li>Cheeze</li><li>Tuna</li><li>Olives</li></ul>";
 });
 
 $("#margarit").click(function(){
@@ -20,7 +24,7 @@ $("#margarit").click(function(){
   $("#turk").hide();
   $("#veget").hide();
   document.querySelector("#margarit").innerHTML = 
-  "<ul class='ul'><li>olives</li><li>honey</li><li>mashrooms</li><li>pineapple</li></ul>";
+  "<ul class='ul'><li>TomatoSauce</li><li>Cheeze</li><li>Basel</li>";
 });
 
 $("#veget").click(function(){
@@ -28,6 +32,7 @@ $("#veget").click(function(){
   $("#margarit").hide();
   $("#turk").hide();
   document.querySelector("#veget").innerHTML = 
-  "<ul class='ul'><li>olives</li><li>basel</li><li>spinach</li><li>green peppers</li></ul>";
+  "<ul class='ul'><li>TomatoSauce</li><li>Cheeze</li><li>GreenPepper</li><li>Mashrooms</li></ul>";
 });
+
 
