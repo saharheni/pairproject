@@ -62,7 +62,7 @@ $("#custompizza").click(function(){
   $("#veget").hide()
   $("#turk").hide()
   $('#listChoices').show()
-  $("#listChoices").html(`<div class = 'checking'>
+  $("#listChoices").html( `<div class = 'checking'>
 	<div>
     <input type="checkbox" id="garlic" > 
     <label for="garlic">Garlic</label >
