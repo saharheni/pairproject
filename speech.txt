@@ -1,0 +1,18 @@
+Hello everyone
+Today, my colleague sahar tabka and I, will present to you our project called "Titos delivery Pizza"
+So first of all, our plan contains a small introduction, second, we'll explain why we chose this subject.
+Third, you'll watch a 1 minute video that explains the project. 
+Also, the challenges faced during work
+Then, we finish with a conclusion
+
+
+So, we built this website where everyone can order his customized pizza and the reasons behind it (Why...)
+-all of you are at home, work or anywhere and you don't have time to cook, the easiest way for you is to visit the website 
+and order something delicious and customized 
+-there is no waste of time: for example here at RBK we don't have enough time to prepare our meal 
+specially when we have projects we can continue working until our order arrives
+-And of course wherever you are Titos pizza will serve you
+
+
+
+To summarize all this, 

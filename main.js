@@ -1,10 +1,13 @@
-
-
+//call for the Menu button so when clicked on the menu will display or disappear
+// we hide the validate order button at first
 $(".btnclass").click(function(){
   $(".pizzas").toggle();
   $("#submit").hide();
 });
 
+// create a function linked with every pizza image button so just the wanted one will display 
+// the standard engridients with each pizzas price
+//
 $("#turk").click(function(){
   $("#neptune").hide();
   $("#margarit").hide();
@@ -14,6 +17,8 @@ $("#turk").click(function(){
   $("#turk").html("<ul class='ul'><li>TomatoSauce</li><li>Cheeze</li><li>GroundBeef</li><li>pepper</li><li id='price'>Price:20DT</li></ul>");
 });
 
+// when double click, it will hide the previous pizza and show the list of the rest 
+// in the same time hide the validate order button
 $("#turk").dblclick(function(){
   $("#neptune").show();
   $("#margarit").show();
@@ -23,6 +28,7 @@ $("#turk").dblclick(function(){
   $("#submit").hide();
 });
 
+// Same thing fot the two previous functions
 $("#neptune").click(function(){
   $("#turk").hide();
   $("#margarit").hide();
@@ -41,6 +47,7 @@ $("#neptune").dblclick(function(){
   $("#submit").hide();
 });
 
+// Same thing fot the two previous functions
 $("#margarit").click(function(){
   $("#neptune").hide();
   $("#turk").hide();
@@ -59,6 +66,7 @@ $("#margarit").dblclick(function(){
   $("#submit").hide();
 });
 
+// Same thing fot the two previous functions
 $("#veget").click(function(){
   $("#neptune").hide();
   $("#margarit").hide();
@@ -77,6 +85,8 @@ $("#veget").dblclick(function(){
   $("#submit").hide();
 });
 
+// for the custom pizza we created another button that when clicked on everything will be hidden
+// and show us the validate button as usual and a list of input boxes to check the optional engredient we want 
 $("#custompizza").click(function(){
   $("#neptune").hide();
   $("#margarit").hide();
@@ -124,6 +134,8 @@ $("#custompizza").click(function(){
   
 });
 
+// This refers to the validate button that when clicked on finally when decided everything to order 
+// display a pop up message as a signal that the order is valid!
 $('#submit').click (function (){
  window.alert ('Your order will be shipped ASAP!!!')
 });
