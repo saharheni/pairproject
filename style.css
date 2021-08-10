@@ -13,11 +13,22 @@ h1{
 	left: 520px;
 }
 
+#submit{
+	position: fixed; 
+	top: 350px; 
+	left: 820px;  
+	border-radius: 100%;
+  background-color: greenyellow;
+  padding: 10px 24px;
+  font-size: 30px;
+  font-style: oblique;
+}
+
 #btn{
 	background-color: red;
-	padding: 20px 100px;
+	padding: 20px 80px;
 	margin-top: 10px;
-	margin-left: 120px;
+	margin-left: 115px;
 	cursor: pointer;
 	border-radius: 30%;
 	font-size: 40px;
@@ -27,7 +38,11 @@ h1{
 
 .pizzas{
   margin-left: 50px;
-  margin-top: 40px;
+  margin-top: 10px;
+}
+
+#price{
+	color: lightblue;
 }
 
 #turk{
@@ -40,22 +55,24 @@ h1{
 	transform: scale(1.1); 
 }
 
-
 #neptune{
 	background: url(./images/neptune.png);
 	height: 200px;
 	width: 200px;
 	border-radius: 100%;
 }
+
 #neptune:hover{
 	transform: scale(1.1); 
 }
+
 #margarit{
 	background: url(./images/margarit.png);
 	height: 200px;
 	width: 200px;
 	border-radius: 100%;
 }
+
 #margarit:hover{
 	transform: scale(1.1); 
 }
@@ -70,11 +87,15 @@ h1{
 #veget:hover{
 	transform: scale(1.1); 
 }
+
 .ul{
-	margin-top: 240px;
+	margin-top: 205px;
 	font-size: 30px;
 	margin-left: 3px;
 	color: white;
+  font-size: 30px;
+  font-family: cursive;
+}
 
 #custompizza{
 	background:url(./images/gg.jpg);
@@ -82,6 +103,11 @@ h1{
 	width: 200px;
 	border-radius:  100%;
 }
+
+#custompizza:hover{
+	transform: scale(1.1); 
+}
+
 .checking{
 	margin-left: 250px;
 	margin-top: -100px;
@@ -90,4 +116,13 @@ h1{
 	font-family: cursive;
 	color: darkorange;
 
+}
+
+.infos{
+	position: fixed; 
+	top: 600px;
+	left: 20px;
+	font-size: 25px;
+  font-style: oblique;
+  color: white; 
 }
